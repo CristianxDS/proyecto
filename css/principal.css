@@ -3,13 +3,14 @@
     font-family: Zilla Slab;
   }
   body {
-      line-height: 1.5;
-      font-family: Zilla Slab;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    line-height: 1.5;
+    font-family: Zilla Slab;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #A7E6FF;
     
+  }
     .container {
       max-width: 1170px;
       margin: auto;
