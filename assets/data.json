@@ -1,4 +1,34 @@
 {
-    "productos": [
-        
-    ]}
+  "productos": [
+    {
+      "id": "1",
+      "producto": "RT6600",
+      "precio": 950,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "B450M",
+      "precio": 200,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "LG",
+      "precio": 200,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "INTEL CORE I9",
+      "precio": 280,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "VENGENCE",
+      "precio": 80,
+      "cantidad": 1
+    }
+  ]
+}
