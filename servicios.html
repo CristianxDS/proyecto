@@ -23,65 +23,184 @@
 </header>
 <body>
         <br><br><br>
-        <div class="containeres mt-2">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <img src="imagenes/tarjeta grafica.jpeg" class="img-fluid" alt="Imagen">
-                </div>
-                <div class="col-md-6">
-                    <h5 class="card-title"><strong>Descubre el Poder de las Tarjetas Gráficas</strong></h5>
-                    <p class="card-text">Las tarjetas gráficas, esenciales para gaming y trabajo profesional, ofrecen rendimiento sin compromisos con arquitecturas como NVIDIA Turing y AMD RDNA 2. Innovadoras en renderizado, IA y trazado de rayos, estas GPUs destacan por su diseño avanzado y sistemas de refrigeración eficaces. Preparadas para resoluciones 4K y más, ofrecen experiencias inmersivas y eficiencia en aplicaciones creativas y de entretenimiento de alta gama. Con conectividad avanzada y soporte para tecnologías emergentes como realidad virtual y realidad aumentada, las tarjetas gráficas modernas garantizan estar a la vanguardia de la innovación tecnológica.</p>
-            </div>
-            </div>
-    
-            <hr> 
-    
-            <div class="row justify-content-center">
-
-                <div class="col-md-4">
-                    <h5 class="card-title"><strong>Explora el Poder de los Procesadores</strong></h5>
-                    <p class="card-text">Los procesadores, fundamentales para computadoras de alto rendimiento y estaciones de trabajo, ofrecen potencia y eficiencia con arquitecturas como Intel Core y AMD Ryzen. Innovadores en cálculo multitarea, IA y procesamiento de datos, estos CPUs destacan por su rendimiento optimizado y capacidades de overclocking. Preparados para aplicaciones intensivas y demandantes, ofrecen velocidad y fiabilidad en entornos profesionales y de juego. Con tecnologías avanzadas como Turbo Boost y Hyper-Threading, los procesadores modernos aseguran un desempeño excepcional y adaptabilidad a las necesidades cambiantes del mercado tecnológico.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="imagenes/procesadres.jpeg" class="img-fluid" alt="Otra Imagen">
-                </div>
-            </div>
-            <hr>
-            <div class="row justify-content-center">
-            <div class="col-md-4">
-                <img src="imagenes/memop.jpeg" class="img-fluid" alt="Imagen">
-            </div>
-            <div class="col-md-4 justify-content-center">
-                <h5 class="card-title"><strong>Descubre las Memorias RAMS</strong></h5>
-                <p class="card-text">Las memorias RAM (Random Access Memory) son componentes cruciales en cualquier sistema informático moderno. Responsables de almacenar datos temporalmente para que el procesador pueda acceder rápidamente a ellos, las RAM ofrecen velocidades de lectura y escritura ultra rápidas, esenciales para mejorar el rendimiento general del sistema. </p>
-        </div>
-        </div>
-
-        <hr> 
-    <div class="row justify-content-center">
-        <!-- Texto a la izquierda, imagen a la derecha -->
-        <div class="col-md-4">
-            <h5 class="card-title"><strong>Placas Madres</strong></h5>
-            <p class="card-text">Las placas madre son el esqueleto sobre el cual se construye todo sistema informático. Responsables de conectar y comunicar entre sí a todos los componentes del ordenador, estas tarjetas integran puertos, ranuras y conectores que permiten la interacción entre el procesador, la memoria RAM, las tarjetas gráficas, los dispositivos de almacenamiento y otros periféricos esenciales. Disponibles en una variedad de formatos como ATX, microATX y mini-ITX, las placas madre están diseñadas para satisfacer necesidades específicas desde configuraciones de alta gama para gaming y trabajo profesional, hasta soluciones compactas para computadoras de factor de forma reducido. 
-
-            </p>
-        </div>
-        <div class="col-md-4">
-            <img src="imagenes/plca.jpeg" class="img-fluid" alt="Otra Imagen">
-        </div>
-        <hr>
-    </div>
-    <div class="row justify-content-center">
-        <!-- Texto a la izquierda, imagen a la derecha -->
-        <div class="col-md-4">
-            <h5 class="card-title"><strong>Los monitores</strong></h5>
-            <p class="card-text">Los monitores gaming ofrecen una experiencia visual sin igual para los entusiastas de los videojuegos. Equipados con tecnología de vanguardia como tasas de actualización ultra altas de hasta 240 Hz, tiempos de respuesta rápidos de 1 ms y resoluciones que van desde Full HD hasta 4K, estos monitores aseguran imágenes nítidas y suaves incluso en las escenas más rápidas y intensas. Con características como FreeSync y G-Sync que eliminan el desgarro de pantalla y mejoran la fluidez del movimiento, los monitores gaming están diseñados para ofrecer una ventaja competitiva en juegos de acción rápida y shooters. Además, algunos modelos incluyen tecnologías de HDR para colores vibrantes y contraste impresionante, junto con ergonomía ajustable para comodidad prolongada durante sesiones de juego prolongadas..</p>
-        </div>
-        <div class="col-md-4">
-            <img src="imagenes/moni.jpeg" class="img-fluid" alt="Otra Imagen">
-        </div>
-    </div>
-        </div>
+        <div class="contenidocentral">
+          <!-- Sección 1: Carrusel a la izquierda y texto a la derecha -->
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-md-5 carousel-container mb-2 mb-md-0">
+                      <!-- Añade la clase mb-3 para reducir el espacio entre el carrusel y el texto en dispositivos pequeños -->
+                      <div id="carouselExample1" class="carousel slide">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="imagenes/tarjeta1.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/tarjeta2.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/tarjeta3.avif" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="col-md-6 text">
+                      <h3>Descubre el Poder de las Tarjetas Gráficas</h3>
+                      <p>Las tarjetas gráficas, esenciales para gaming y trabajo profesional, ofrecen rendimiento sin compromisos con arquitecturas como NVIDIA Turing y AMD RDNA 2. Innovadoras en renderizado, IA y trazado de rayos, estas GPUs destacan por su diseño avanzado y sistemas de refrigeración eficaces. Preparadas para resoluciones 4K y más, ofrecen experiencias inmersivas y eficiencia en aplicaciones creativas y de entretenimiento de alta gama. Con conectividad avanzada y soporte para tecnologías emergentes como realidad virtual y realidad aumentada, las tarjetas gráficas modernas garantizan estar a la vanguardia de la innovación tecnológica.</p>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Sección 2: Texto a la izquierda y carrusel a la derecha -->
+          <div class="container mt-5 mt-md-5">
+              <!-- Reducido el espacio arriba usando mt-4 en lugar de mt-5 -->
+              <div class="row align-items-center">
+                  <div class="col-md-6 text">
+                      <h3>Explora el Poder de los Procesadores</h3>
+                      <p>Los procesadores, fundamentales para computadoras de alto rendimiento y estaciones de trabajo, ofrecen potencia y eficiencia con arquitecturas como Intel Core y AMD Ryzen. Innovadores en cálculo multitarea, IA y procesamiento de datos, estos CPUs destacan por su rendimiento optimizado y capacidades de overclocking. Preparados para aplicaciones intensivas y demandantes, ofrecen velocidad y fiabilidad en entornos profesionales y de juego. Con tecnologías avanzadas como Turbo Boost y Hyper-Threading, los procesadores modernos aseguran un desempeño excepcional y adaptabilidad a las necesidades cambiantes del mercado tecnológico.</p>
+                  </div>
+                  <div class="col-md-6 carousel-container mb-3 mb-md-0">
+                      <!-- Añade la clase mb-3 para reducir el espacio entre el carrusel y el texto en dispositivos pequeños -->
+                      <div id="carouselExample2" class="carousel slide">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="imagenes/procesadora1.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/procesadora2.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/procesadore3.avif" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Sección 3: Carrusel a la izquierda y texto a la derecha -->
+          <div class="container mt-5 mt-md-5">
+              <!-- Reducido el espacio arriba usando mt-4 en lugar de mt-5 -->
+              <div class="row align-items-center">
+                  <div class="col-md-5 carousel-container mb-3 mb-md-0">
+                      <!-- Añade la clase mb-3 para reducir el espacio entre el carrusel y el texto en dispositivos pequeños -->
+                      <div id="carouselExample3" class="carousel slide">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="imagenes/momiria1.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/ram2.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/memop.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="col-md-5 text">
+                      <h3>Descubre las Memorias RAM</h3>
+                      <p>Las memorias RAM (Random Access Memory) son componentes cruciales en cualquier sistema informático moderno. Responsables de almacenar datos temporalmente para que el procesador pueda acceder rápidamente a ellos, las RAM ofrecen velocidades de lectura y escritura ultra rápidas, esenciales para mejorar el rendimiento general del sistema.</p>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Sección 4: Texto a la izquierda y carrusel a la derecha -->
+          <div class="container mt-4 mt-md-5">
+              <!-- Reducido el espacio arriba usando mt-4 en lugar de mt-5 -->
+              <div class="row align-items-center">
+                  <div class="col-md-6 text">
+                      <h3>Los Monitores Gaming</h3>
+                      <p>Los monitores gaming ofrecen una experiencia visual sin igual para los entusiastas de los videojuegos. Equipados con tecnología de vanguardia como tasas de actualización ultra altas de hasta 240 Hz, tiempos de respuesta rápidos de 1 ms y resoluciones que van desde Full HD hasta 4K, estos monitores aseguran imágenes nítidas y suaves incluso en las escenas más rápidas y intensas.</p>
+                  </div>
+                  <div class="col-md-5 carousel-container mb-3 mb-md-0">
+                      <!-- Añade la clase mb-3 para reducir el espacio entre el carrusel y el texto en dispositivos pequeños -->
+                      <div id="carouselExample4" class="carousel slide">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="imagenes/moni1.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/moni2.avif" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/mon3.avif" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Sección 5: Carrusel a la izquierda y texto a la derecha -->
+          <div class="container mt-4 mt-md-5">
+              <!-- Reducido el espacio arriba usando mt-4 en lugar de mt-5 -->
+              <div class="row align-items-center">
+                  <div class="col-md-5 carousel-container mb-3 mb-md-0">
+                      <!-- Añade la clase mb-3 para reducir el espacio entre el carrusel y el texto en dispositivos pequeños -->
+                      <div id="carouselExample5" class="carousel slide">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="imagenes/teclado.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/image2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="imagenes/image3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="col-md-5 text">
+                      <h3>Teclados y Ratones Gaming</h3>
+                      <p>Los teclados y ratones gaming están diseñados para proporcionar una ventaja competitiva en juegos. Con teclas mecánicas ultra responsivas y ratones precisos con sensores de alta DPI, estos periféricos permiten movimientos rápidos y precisos, esenciales para jugar en niveles profesionales y mantener la precisión en cada acción.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      
     <br>
         <footer class="footer">
             <div class="container">
